@@ -1,0 +1,179 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #121212;
+}
+
+.header .logo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.header .logo p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #aaa;
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav ul li {
+    margin-left: 20px;
+}
+
+.header nav ul li a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.header nav ul li a:hover {
+    color: #ff9900;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.btn {
+    background-color: #ff9900;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e68a00;
+}
+
+/* Recipes Section */
+.recipes {
+    padding: 60px 40px;
+    text-align: center;
+    background-color: #121212;
+}
+
+.recipes h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.recipe-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.recipe-card {
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.recipe-card h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+.recipe-card p {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #bbb;
+}
+
+/* About Section */
+.about {
+    padding: 60px 40px;
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #bbb;
+}
+
+/* Footer */
+footer {
+    background-color: #121212;
+    padding: 20px;
+    text-align: center;
+    color: #aaa;
+}
+
+footer p {
+    font-size: 1rem;
+}
